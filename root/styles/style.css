@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    font-family: 'plus jakarta sans'; 
+}
+
+#logo {
+    width: 200px;
+}
+
