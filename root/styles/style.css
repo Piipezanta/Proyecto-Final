@@ -1,20 +1,23 @@
 * {
     box-sizing: border-box;
-    margin: 2px;
+    margin: 0px;
     padding: 2px;
     font-family: 'plus jakarta sans'; 
 }
 
-#logo {
-    width: 200px;
-}
 
 header{
     background-color: #306BB3;
     display: flex;
     justify-content: space-between ;
-    margin: 2px;
+    height: 100px;  
+    align-items: center;  
 }
+.header-lineal{
+    color: white;
+    
+}
+
 ul{
     display: flex;
     list-style: none;    
@@ -35,4 +38,37 @@ footer{
 .vertical{
     display: flex;
     flex-direction: column;
+}
+article{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    display: flex;
+    margin-left: 60px;
+    font-weight: lighter;
+    font-size: 16px;
+    gap: 30px;
+}
+
+a{
+    margin: 60px;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.article-list{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
