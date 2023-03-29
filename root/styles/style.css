@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    padding: 2px;
+    padding: 0px;
     font-family: 'plus jakarta sans'; 
 }
 
@@ -12,6 +12,7 @@ header{
     justify-content: space-between ;
     height: 100px;  
     align-items: center;  
+    padding: auto;
 }
 .header-lineal{
     color: white;
@@ -21,6 +22,8 @@ header{
 ul{
     display: flex;
     list-style: none;    
+    font-style: medium;
+    font-size: 80%;
 
 }
 section{
@@ -33,6 +36,9 @@ footer{
     background-color: #306BB3;
     justify-content: space-between;
     color: white;
+    font-family: 'plus jakarta sans';
+    padding: 2%;
+    
     
 }
 .vertical{
