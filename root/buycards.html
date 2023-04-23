@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/root/styles/buycards.css">
+    <link rel="stylesheet" href="/root/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;800&display=swap"
@@ -14,22 +14,21 @@
        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Buy Cards</title>
 </head>
-<header>
-    <img id="logo" src="assets/logo.png" alt="Logo pokemón">
-    <nav class="header-lineal">
-       <ul>
-          <li><a href ="/root/index.html" class="header-lineal">Home</a></li>
-          <li><a href="/root/buycards.html" class="header-lineal">Buy Cards</a></li>
-          <li><a href="/root/ourblog.html" class="header-lineal">Our Blog</a></li>
-       </ul>
-    </nav>
-    <button name="dark mode">Dark Mode</button>
- </header>
-    <main>
+<header class="header">
+  <img id="logo" src="assets/logo.png" alt="Logo pokemón">
+  <nav class="header-lineal">
+     <ul class="header-links">
+        <li><a href="/root/index.html" class="header-lineal">Home</a></li>
+        <li><a href="/root/buycards.html" class="header-lineal">Buy Cards</a></li>
+        <li><a href="/root/ourblog.html" class="header-lineal">Our Blog</a></li>
+     </ul>
+  </nav>
+  <button class="header-button" name="dark mode">Dark Mode</button>
+</header>
+    <main class="buycards">
     
-        <h2>Checkout Out Pokemon Cards</h2>
-        <p>The Pokemon Go expansion for the Pokemon Trading Card <br>
-            Game will release soon. </p>
+        <h2 class="subtitle">Checkout Out Pokemon Cards</h2>
+        <p class="description">The Pokemon Go expansion for the Pokemon Trading Card Game will release soon. </p>
    
       <div class="container_select_type">
         <div>
@@ -150,67 +149,66 @@
            <button class="card-button">Buy</button>
          </div>
        </div>
-       <div>
+       <div class="final-part">
          <button class="more-cards">Show more cards</button>
-         <p class="final-part">120 Cards</p>
+         <p class="card-count">120 Cards</p>
        </div>
         
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div>
          <img id="logo" src="assets/logo.png" alt="Logo pokemón">
-         <p>Our vision is to provide convenience <br>
-            and help increase your sales business.</p>
+         <p class="footer-slogan">Our vision is to provide convenience and help increase your sales business.</p>
 
-         <ul>
-            <li class="socmed">
+         <ul class="social">
+            <li class="social-item">
                <a href="https://www.facebook.com/PokemonOficialLatAm">
                   <i class="fa-brands fa-facebook"></i> </a>
             </li>
-            <li class="socmed">
+            <li class="social-item">
                <a href="https://twitter.com/Pokemon">
                   <i class="fa-brands fa-twitter"></i> </a>
             </li>
-            <li class="socmed">
+            <li class="social-item">
                <a href="https://www.instagram.com/pokemon/">
                   <i class="fa-brands fa-instagram" i-class></i> </a>
             </li>
          </ul>
       </div>
       <div class="footer-navigation">
-      <div>
-         <h3>About</h3>
-         <ul class="vertical">
-            <li> How it works </li>
-            <li>Featured</li>
-            <li>Partnership</li>
-            <li>Bussiness Relation</li>
-         </ul>
-      </div>
+         <div>
+            <h3 class="footer-title">About</h3>
+            <ul class="vertical">
+               <li> How it works </li>
+               <li>Featured</li>
+               <li>Partnership</li>
+               <li>Bussiness Relation</li>
+            </ul>
+         </div>
 
-      <div>
-         <h3>Community</h3>
+         <div>
+            <h3 class="footer-title">Community</h3>
 
-         <ul class="vertical">
-            <li>Events</li>
-            <li>Blog</li>
-            <li>Podcast</li>
-            <li>Invite a friend</li>
-         </ul>
-      </div>
+            <ul class="vertical">
+               <li>Events</li>
+               <li>Blog</li>
+               <li>Podcast</li>
+               <li>Invite a friend</li>
+            </ul>
+         </div>
 
-      <div>
-         <h3>Socials</h3>
-         <ul class="vertical">
-            <li>Discord</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-         </ul>
+         <div>
+            <h3 class="footer-title">Socials</h3>
+            <ul class="vertical">
+               <li>Discord</li>
+               <li>Instagram</li>
+               <li>Twitter</li>
+               <li>Facebook</li>
+            </ul>
+         </div>
       </div>
-    </div>
    </footer>
 
 <body>
